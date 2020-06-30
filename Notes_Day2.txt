@@ -1,0 +1,95 @@
+for loop : This loop executes all the statements repeatedly until the condition remains true, if the condition remains false, then it comes out of the loop. 
+
+for(initialization;condition;increment/decrement) {
+  statement(s);
+}
+
+
+Perfect Number : 
+
+6  -> 1, 2, 3 
+
+	6
+
+switch...case : Used to implement menu-driven programs. 
+
+Array : An array is the finite ordered set of homogeneous elements, means all the elements belongs to same data type. All the elements of array are stored in successive memory locations. 
+
+int[] a = new int[]{10,20,30,40} means 
+
+a[0]=10;
+a[1]=20;
+a[2]=30;
+a[3]=40;
+
+
+int[] a = new int[] {5,33,67,9,62};
+for (int i : a) {
+   System.out.println(i);
+}
+
+In the above loop, at first i points to the first element in array a. 
+
+after processing first element, it checks whether next element is there or not by using 
+hasNext(), if hasNext() returns true, then it moves to the next element by using next(). 
+if hasNext() returns false, then it comes out of the loop. 
+
+Strings are reference types and they are immutable. 
+
+Exercises : 
+____________
+
+1) Program to display a number in words upto 1 to 9999
+ex : enter as 426 then print as FOUR Hundred Twenty Six
+        1234 One Thousand Two Hundred Thirty Four 
+
+2) Program to Print a number in rowman format. 
+
+3) 
+
+Write a program to read no.of units and generate current bill. 
+
+Assume, you consume 270 units then, 
+
+first 90 units 1rs per unit
+
+91 to 150 units its 1.5 rs 
+
+151 to 200 units its 2rs 
+
+201 to 240 units its 2.5 rs
+
+240+ its 3rs 
+
+
+(90*1) + (60*1.5) + (50 * 2) + (40 * 2.5) + 30 * 3 
+
+There are 2 types of memories as 
+
+	1) STACK
+
+	2) HEAP 
+
+Value types will be stored in STACK memory and reference types will be stored in HEAP memory. 
+
+enum : Used to store group of constants. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
