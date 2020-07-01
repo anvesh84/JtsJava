@@ -1,0 +1,95 @@
+Boxing and Unboxing : 
+_____________________
+
+int a;
+
+
+a=12.5;
+a=12;
+a="Hello";
+
+Object a;
+
+
+a=12.5;
+a=12;
+a="Hello";
+
+The concept of converting value type to reference type known as boxing, and 
+reference type to value type known as unboxing.  
+
+Object is type, that which can be used for boxing and unboxing. 
+
+What is the difference between == and equals() 
+
+void show(int x) {
+....
+....
+....
+}
+
+show();
+show(12);
+show(12,6);
+show(12,7,44);
+
+Method Overloading : The concept of using the same method name w.r.t. different parameters
+or different data types known as method overloading. Here, the method name must be same, but 
+no.of parameters and type of parameters we are passing are different. 
+
+
+class Demo {
+    int a,b;
+    a=5;
+    b=7;
+}
+
+
+Constructors : 
+_______________
+
+A constructor is a special member, that which used to initialize the member variables of the class. It is special because it has the same name as that of class name. 
+
+Rules : 
+_______
+
+	(i) It will not contains any return type.
+
+	(ii) It will not return any value. 
+
+	(iii) It will be invoked automatically once the instance of the class created. 
+
+	(iv) A constructor can be overloaded. 
+
+
+Types of Constructors : 
+_________________________
+
+There are 2 types of constructors known as 
+
+	(i) Static Constructors : These are called class constructors, which are used to initialize the static variables of the class. 				These constructors are invoked automatically before control reaches the entry point. These 				constructors cannot be overloaded. In java we use static block as static constructor.
+
+	(ii) Instance Constructors : These are the constructors that which are invoked automatically once the instance of the class created. These constructor can be overloaded. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
