@@ -1,0 +1,105 @@
+Exception Handling : 
+______________________
+
+
+It is a mechanism of handling the runtime errors during execution of the program.
+
+There are 2 types of errors as 
+
+	(i) Compile Timee
+
+	(ii) Runtime 
+
+By using exception handling, we can overcome the runtime errors. 
+
+To handle errors, we have 3 blocks as 
+
+1) try block : This block contains statements in which there is possibility of getting runtime errors,
+the statements which are placed in this block are treated as heavy weighted statements as JVM
+allocates excess memory to them. 
+
+2) catch block : Once exception raised in try block, then the control will be forwarded to catch block,
+this block contains alternate statements for exceptions raised in try block. One try block can contains
+multiple catch blocks. 
+
+3) finally block : This block contains statements that needs to be executed mandetorily irrespective
+of try and catch blocks. This block is not mandetory, but all the statements which are placed in 
+this block are executed as mandetory statements. 
+
+Exception is the top most class from which all kinds of exceptions are derived. 
+
+try {
+....
+....
+....
+} catch (Exception e) {
+...
+...
+...
+} finally {
+...
+...
+...
+}
+
+________________________________________________
+
+Types of Exceptions : 
+
+There are 2 types of exceptions as 
+
+
+(i) Checked Exceptions : These are the exceptions that which occurs at compile time, duirng compilation
+JVM feels some erroneous code, and stops the execution at compile time, can be handled at method level
+by using throws keyword. 
+
+(ii) Unchecked Exceptions : These are the exceptions that which occurs at runtime, can be handled 
+by using try...catch block. 
+
+
+back in 5 mins
+
+throw keyword : If you want to throw exceptions based on the condition, then we need the help of throw keyword. 
+
+Difference between throw and throws 
+____________________________________
+
+	throws will be at method level, throw will be at code level.
+	by using throws we can throw a class, by using throw we can throw object. 
+	Checked exceptions to be handled at method by throws, any exception object to be thrown then use throw keyword. 
+
+Custom Exceptions : You can create custom exceptions by using Exception class. Any class, that which derived from exception can be treated as custom exception. System exceptions are inadequate to handle in all situations, so we need the help of custom exceptions. 
+
+
+class Ex1 extends Exception {
+...
+...
+...
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
