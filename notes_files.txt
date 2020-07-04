@@ -1,0 +1,30 @@
+File : 
+______
+
+A file is a collection of data, that which allows you to store output permanently. 
+
+To deal with files, we need the help of java.io pacakge. 
+
+File class : This class allows you to deal with files. 
+
+File obj = new File(filename);
+
+FileReader : Allows you to read the data from the file w.r.t. Unicode format. 
+
+read() : Used to read data char/char and returns ascii value. It returns -1 once it reaches
+end of file. 
+
+FileWriter : Used to write data into file wrt char/char. 
+
+write() : Used to write data char/char. 
+
+FileInputStream : Used to read data w.r.t. Stream of bytes. 
+
+FileInputStream fin = new FileInputStream(filename);
+
+FileOutputStream : Used to write data w.r.t. Stream of bytes. 
+
+
+ 
+
+
