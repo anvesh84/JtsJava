@@ -1,0 +1,47 @@
+DataOutputStream : Used to write primitive types into the file. 
+
+writeInt()
+writeDouble()
+writeBoolean()
+writeUTF() 
+
+BufferedReader : Allows you to read the data from the keyboard. 
+
+BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+
+readLine() : Used to read one line of input. 
+
+ObjectOutputStream : Used to write objects into the file. 
+
+writeObject() : used to write objects into the file. 
+
+readObject() : Used to read objects from the file. 
+
+ObjectInputStream : Used to read objects from the file. 
+
+_________________________________________________________________________________________________________
+
+Write a Program as Accept two values of time in hrs/mins and add them and print 
+
+Ex : 
+
+   Time 1 : 4 hr 45 mins
+   Time 2 : 3 hr 30 mins
+
+Sum is : 8 hrs 15 mins 
+
+
+
+Write a program to implement multiplication of 2 numbers 
+
+100 digit number * 100 digit number need to show the exact value. 
+
+
+Write a program to Create a class as Student (sno,firstName,lastName,cgp) and add the object to the file. 
+
+
+
+
+
+
+
