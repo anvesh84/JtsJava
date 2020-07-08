@@ -1,0 +1,8 @@
+Scanner : Used to read the data from keyboard. 
+
+Scanner sc = new Scanner(System.in);
+
+nextLine()
+nextInt()
+
+Map interface : Used to store data w.r.t. Key/value pairs. 
