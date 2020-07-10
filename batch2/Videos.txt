@@ -2,3 +2,10 @@ Video 1 :
 
 https://transcripts.gotomeeting.com/#/s/96eed0e08d83461ff7788f66109d47029d0b8051ce778796d5b6b6834dcdca89
 
+Video 2 : 
+
+https://transcripts.gotomeeting.com/#/s/fdf8369f3f331418eb77d1e91c22fe2bb52665e80ea258e867db3ed43363e724
+
+Material : https://github.com/prasanna-hexaware/JtsJava
+
+
