@@ -1,0 +1,51 @@
+Generics : 
+
+Allows you to pass data types at runtime. 
+
+If you want to make a method as write once and apply for all types, then we need the help of generics. 
+
+
+Advantages : 
+______________
+
+
+	-> Reduces the size of the program.
+
+	-> Write Once and Apply for multiple types.
+
+	-> Security 
+
+	-> No Typecasting required.
+
+
+You can define generics by using <T> annotation. 
+
+Files :
+
+A file is a collection of data, that which allows you to store the output permanently. 
+
+to deal with files, we need the help of java.io package. 
+
+
+File class : This class allows you to deal with files. 
+
+File obj = new File(filename);
+
+getName()
+
+getParent() 
+
+FileReader : Allows you to read the data from the file w.r.t. Unicode format. 
+
+FileReader fr = new FileReader(filename);
+
+read() : Used to read data char/char and returns the ascii value. (We have to typecast to print), it returns -1 once it reaches the end of file. 
+
+
+
+
+
+
+
+
+
