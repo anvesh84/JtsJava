@@ -1,0 +1,152 @@
+Control Structures : 
+_____________________
+
+Used to define the flow of the program. 
+
+There are 2 types of control structures known as 
+
+	(i) Branching
+
+	(ii) Looping 
+
+
+
+if...else : Executes the statements based on the condition. 
+
+	if (condition) {
+	   statement(s);
+	} else {
+	   statement(s);
+	}
+
+
+while loop : This loop executes all the statements repeatedly until condition remains true, 
+if the condition remains false, then it comes out of the loop. For every loop, basically, there 
+are 3 phases as 
+
+	(i) Initialization
+
+	(ii) Condition 
+
+	(iii) Increment/Decrement 
+
+
+Initialization performed at the beginning of the loop. 
+
+Condition performed at the conditional part of the loop.
+
+Increment/Decrement performed before closing the loop.
+
+
+for loop : This loop executes all the statements repeatedly until the condition remains true,
+if the condition remains false, then it comes out of the loop. 
+
+for(initialization;condition;increment/decrement) {
+....
+....
+....
+}
+
+6  -> 1, 2, 3 
+
+	 6
+
+
+switch...case : Used to define any menu driven programs. 
+
+	switch(choice) {
+	
+		case expr1 : 
+			 statement(s);
+			 break;
+		case expr2 : 
+			 statement(s);
+			 break;
+		...	
+		...
+		...
+		default :
+		   statement(s);
+		   break;
+	}		
+
+
+Arrays : An array is the finite ordered set of homogeneous elements, means all the elements belongs 
+to same data type. 
+
+All the elements of the array are to be stored in successive memory locations. 
+
+int[] a = new int[]{12,4,66,23,8};
+
+a[0]=12;
+a[1]=4;
+a[2]=66;
+a[3]=23;
+a[4]=8;
+
+int[] a = new int[] {12,88,42,32,90};
+for (int i : a) {
+   System.out.println(i);
+}
+
+Internal execution of foreach loop : 
+_______________________________________
+
+In this, at first i points to the first element in array A, after processing first element, it 
+checks whether next element is there or not by using hasNext(), if hasNext() returns true, 
+then it moves to the next element by using next(), it repeats as soon as hasNext() return false. 
+
+
+String (vs) StringBuilder : 
+
+Strings are immutable, means once they are assigned they cannot be changed. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
