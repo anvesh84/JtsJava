@@ -1,0 +1,59 @@
+There are 2 types of memories as 
+
+	1) STACK
+
+	2) HEAP 
+
+
+value types will be stored in STACK memory, and reference types will be stored in HEAP memory. 
+
+Boxing and Unboxing : 
+______________________
+
+The process of converting value type to reference type known as boxing, and reference type to 
+value type known as unboxing. Object is type that which can be used for boxing and unboxing. 
+
+int x;
+
+x="Hello";
+x=12;
+x=12.5;
+
+Object x;
+x="Hello";
+x=12;
+x=12.5;
+
+Method Overloading : The concept of using the same method name w.r.t. Different data types or different parameters known as method overloading. Here, the method name must be same, but type of parameters or no.of parameters we are passing are different. 
+
+Exercises : 
+____________
+
+1) Program to display a number in words upto 1 to 9999
+ex : enter as 426 then print as FOUR Hundred Twenty Six
+        1234 One Thousand Two Hundred Thirty Four 
+
+2) Program to Print a number in rowman format. 
+
+3) 
+
+Write a program to read no.of units and generate current bill. 
+
+Assume, you consume 270 units then, 
+
+first 90 units 1rs per unit
+
+91 to 150 units its 1.5 rs 
+
+151 to 200 units its 2rs 
+
+201 to 240 units its 2.5 rs
+
+240+ its 3rs 
+
+
+(90*1) + (60*1.5) + (50 * 2) + (40 * 2.5) + 30 * 3 
+
+
+
+
