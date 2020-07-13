@@ -6,6 +6,10 @@ Video 2 :
 
 https://transcripts.gotomeeting.com/#/s/fdf8369f3f331418eb77d1e91c22fe2bb52665e80ea258e867db3ed43363e724
 
+Video 3 : 
+
+https://transcripts.gotomeeting.com/#/s/865c8df88c6219fd1355e914e014302335683d294831f3a026ec2322f97a49f2
+
 Material : https://github.com/prasanna-hexaware/JtsJava
 
 
