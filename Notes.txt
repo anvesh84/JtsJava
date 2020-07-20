@@ -1,100 +1,114 @@
-Access Modifiers :
-___________________
+So please perform operations as 
 
+create table stock
+(
+	stockid varchar(30) primary key,
+	ItemName varchar(30),
+	Price numeric(9,2),
+	QuantityAvail INT
+);
 
-There are 4 access modifiers we have as 
+1) Add Stock 
 
-	1) private : Allows you to access members within the current class. 
+Stock id to be generated automatically like 'S001','S002' etc...
 
-	2) public  : Allows you to access members in entire application. 
+2) Search Stock 
 
-	3) protected : Allows you to access members within current/derived classes. 
+Enter 'S001' it has to print information. 
 
-	4) friendly : By default, java possess friendly access modifier, allows you to access
-		members in all classes of current package. 
+Create table Orders
+(
+   OrderId INT,
+   StockID varchar(30),
+   QtyOrd INT,
+   billAmt numeric(9,2)
+);
 
-Data Types : 
-______________
+Create Table Amount
+(
+  Gamt numeric(9,2)
+);
 
-There are 2 types of data types as 
+insert into amount values(0);
 
-	(i) value types : int, float, double, char, boolean 
+3) Place Order 
 
-	(ii) reference type : String, Object 
+OrderID to be generated automatically, as O001, O002, etc...
 
-System.out.println() : Used to display any value or message. 
+Once you place an order, first you have to check quantity is available or not, if quantity is not available
+then please given message as 'Insufficient Quantity', If quantity available then 
 
-	System -> class
+	-> Update the QuantityAvail in the STOCK table {assume he has 10 pens, you purchased 6 then 4 to be there in STOCK)
 
-	out -> Console
+	-> Bill Amount to be calculated as (QtyOrd * Price) 
 
-	println() -> Method.
+	-> Insert Record into Orders Table. 
 
+	-> Amount table treat as CashCounter, in that old amount to be added with new amount. 
 
-System.out.println("Welcome to Java Programming...");
-
-int a;
-double b;
-String name;
-
-System.out.println("A value is " +a+ " B value is " +b+ " Name is " +name);
-
-
-You can create an object to the class, as 
-
-class_name obj = new class_name();
-
-Control Structures : 
-____________________
-
-Used to define the flow of the program. 
-
-There are 2 types of control structures known as 
-
-	1) branching control structures 
-
-		if...else : Executes statements based on the condition. 
-
-		if (condition) {
-			statement(s);
-		} else {
-			statement(s);
-		}
-
-	2) looping control structures 
-
-	while loop : This loop executes all the statements repeatedly until the condition remains true,
-		if the condition remains false, then it comes out of the loop. For every loop, basically there are 
-		3 phases as 
-
-			(i) Initialization
-
-			(ii) Condition
-
-			(iii) Increment/Decrement 
-
-
-		*** Initialization performed at the beginning of the loop ***
-		*** Condition performed at the conditinal part of the loop ***
-		*** Increment/Decrement performed before closing the loop ***
-
-
-		while(condition) {
-			statement(s);
-		}
+	-> Display message as order Placed Successfully...
 
 
 
 
+Stock id to be generated automatically like 'S001','S002' etc...
+
+
+The heart for maven project is pom.xml file, which contains the list of dependencies. 
+
+
+Each Dependency contains the following elements as
+
+ <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+<dependency>
+		   <groupId>mysql</groupId>
+	      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.5</version>
+	</dependency>
+
+
+__________________________________________________________
+
+Preparing resources means,
+
+There are 2 repositories as 
+
+	1) remote repository
+
+	2) local repository 
+
+
+In this phase, first it checks the relevant jar files are available in the local repository, if available it skips the phase
+else it prepares to connect to remote repository to download the jar files. 
+
+
+____________________________________________________________________________________________________________________
+
+
+Testing : 
+
+
+1) Defect : If a tester identifies some mistake known as defect. 
+
+2) Bug : If the programmer accepts the defect, then it is known as bug. 
+
+*** All defects are not bugs, but all bugs are defects ***
+
+3) Error :  If the programmer identifies mistake in code, it is known as error. 
+
+4) Fatal : If client identifies something known as fatal (which is critcal) 
 
 
 
+_________________________________________
 
 
-
-
-
-
+Assume, we have requirement that Demo class sayHello() metho needs to return value as "Welcome to Junit..."
 
 
 
