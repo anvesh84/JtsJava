@@ -14,7 +14,7 @@ create table stock
 
 Create table Orders
 (
-   OrderId INT,
+   OrderId INT AUTO_INCREMENT,
    StockID varchar(30),
    QtyOrd INT,
    billAmt numeric(9,2)
