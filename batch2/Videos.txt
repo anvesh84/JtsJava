@@ -17,6 +17,10 @@ https://transcripts.gotomeeting.com/#/s/fd5f8454c45e83a575da6795e7bb7cbe244aabed
 Material : https://github.com/prasanna-hexaware/JtsJava
 
 
+Video : July 21
+
+https://transcripts.gotomeeting.com/#/s/d35f13a0809a5422c3f60e0f1a698b03399487971ae01ad7924d840c2fae9758
+
 username : prassup.dotnet@gmail.com
 pwd : Dotnet@123
 
