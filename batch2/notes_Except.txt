@@ -1,0 +1,123 @@
+Exception Handling : 
+
+It is a mechanism of handling the runtime errors during execution of the program. 
+
+There are 2 types of errors known as 
+
+	1) Compile Time
+
+
+	2) Runtime 
+
+By using Exception Handling, we can overcome the runtime errors. 
+
+To handle errors, we have 3 blocks as 
+
+1) try block  : This block contains statements in which there is possibility of getting 
+runtime errors. The statements which are placed in this block are treated as heavy weighted 
+statements as JVM allocates excess memory to them. 
+
+2) catch block  : Once exception raised in try block, then the control will be forwarded to 
+	catch block, this block contains alternate statements for exceptions to be raised in try 
+	block. One try block can contains multiple catch blocks. 
+
+3) finally block  : This block contains statements that needs to be executed mandetorily irrespective
+of try and catch blocks.  This block is not mandetory, but all the statements which are placed 
+in this block are executed as mandetory statements. 
+
+Exception is the top most class from which all kinds of exceptions are derived. 
+
+try {
+...
+...
+...
+} catch (Exception e) {
+...
+...
+...
+} finally {
+...
+...
+...
+}
+
+______________________________________________________________________________-
+
+
+There are 2 types of exceptions as 
+
+	(i) Checked Exceptions : These are the exceptions that which occurs at compile time, 
+		during compilation JVM feels some erroneous code is there and stops execution at 
+		compile time, can be handled at method level by using throws keyword. 
+
+	(ii) Unchecked Exceptions : These are the exceptions that which occurs at runtime, and
+		can be handled by using try...catch block. 
+
+
+
+throw keyword : If you want to throw the errors based on the condition, then we need the help of
+throw keywrod. 
+
+Write a Program as accept a number, if number < 0 then throw ArithmeticException, if number = 0 
+then throw NumberFormatException 
+
+Creating Custom Exceptions : 
+_____________________________
+
+System exceptions are inadequate to handle in all the situtations, so we need the help of 
+custom exceptions. Any class that which derived from Exception can be treated as Custom Exception. 
+
+class class1 extends Exception {
+...
+...
+...
+}
+
+
+Write a Program as sum of 2 nos, if any number < 0 then throw NegativeException, 
+
+				 if any number = 0 then throw NumberZeroException 
+
+
+Exercise : 
+__________
+
+Write a Program as 
+
+	accept email from user, in that email '@' not found then throw 
+			InvalidEmailException
+
+	if username length > 12 chars (means before @ what comes its username) then throw InvalidUserException 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
