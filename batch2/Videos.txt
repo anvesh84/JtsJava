@@ -27,3 +27,7 @@ pwd : Dotnet@123
 Friday Video
 
 https://transcripts.gotomeeting.com/#/s/90ab05b2b9f6044726ffa211eb54e2831ed1c4dd3f901e336120f01eb5f8d944
+
+Database Video 1 : 
+
+https://transcripts.gotomeeting.com/#/s/8da9bfc95bce5fd4de135a0cc16821b7e6ea721216a686b3e04247ffb4fc3745
