@@ -1,0 +1,5 @@
+http://mvnrepository.com/artifact/org.glassfish.jersey.archetypes/project/2.22.1
+
+nikithaammu435@gmail.com
+Dotnet@123
+
